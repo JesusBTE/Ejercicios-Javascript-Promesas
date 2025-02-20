@@ -12,7 +12,7 @@ let cities = [
         condition: 'Soleado'
     },
     {
-        city: 'Culiacan',
+        city: 'Culiacán',
         temperature: '35°C',
         condition: 'Soleado'
     },
@@ -28,7 +28,7 @@ let cities = [
     }
 ]
 
-//Se crea la funcion de consultar clima
+//Se crea la función de consultar clima
 function weathercheck(city){
     //Se busca el objeto en el arreglo de las ciudades en base a su nombre
     const cityA = cities.find(t => t.city === city);
@@ -46,8 +46,8 @@ function weathercheck(city){
     });
 }
 
-//Se llama al metodo de consultar clima con su respectivo parametro(ciudad)
-weathercheck('slp')
+//Se llama al método de consultar clima con su respectivo parámetro(ciudad)
+weathercheck('Guadalajara')
     //Se llama al mensaje de aprobacion
     .then((message) => {console.log(message);})
     //Se llama al mensaje de negacion

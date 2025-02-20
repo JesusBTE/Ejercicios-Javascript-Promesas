@@ -3,7 +3,7 @@
 // Si el monto es mayor a 0, la promesa se resuelve con "Pago exitoso de $monto".
 // Si el monto es 0 o menor, la promesa se rechaza con "Error: Monto inválido".
 
-//Se crea la funcion de procesar pago con el parametro de monto
+//Se crea la función de procesar pago con el parámetro de monto
 function payprocess(cash){
     return new Promise((resolve,reject)=>{
         setTimeout(() => {
@@ -19,7 +19,7 @@ function payprocess(cash){
     });
 }
 
-//Se llama al metodo procesar pago con su respectivo parametro (monto)
+//Se llama al método procesar pago con su respectivo parámetro (monto)
 payprocess(0)
     //Se llama al mensaje de aprobacion
     .then((message) => {console.log(message);})
