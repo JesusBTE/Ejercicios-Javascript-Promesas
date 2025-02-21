@@ -56,3 +56,11 @@ weathercheck("Guadalajara")
   .catch((error) => {
     console.log(error);
   });
+
+weathercheck("Slp")
+.then((message) => {
+  console.log(message);
+})
+.catch((error) => {
+  console.log(error);
+});

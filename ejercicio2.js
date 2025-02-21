@@ -30,3 +30,11 @@ verifyage(18)
   .catch((error) => {
     console.log(error);
   });
+
+verifyage(15)
+  .then((message) => {
+    console.log(message);
+  })
+  .catch((error) => {
+    console.log(error);
+  });

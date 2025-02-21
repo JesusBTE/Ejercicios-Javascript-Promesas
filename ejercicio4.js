@@ -29,3 +29,11 @@ payprocess(0)
   .catch((error) => {
     console.log(error);
   });
+
+payprocess(10)
+  .then((message) => {
+    console.log(message);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
