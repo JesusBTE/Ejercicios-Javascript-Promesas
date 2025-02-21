@@ -10,6 +10,9 @@ En este ejercicio se realizó una promesa para comprobar si un usuario tenia la 
 realizar una compra y permitirsela, en caso contrario negarle el acceso. Si la edad era mayor o igual a 18 se
 llama al mensaje de aprobacion, si no al de negacion.
 
+Ejercicio 3: Verificación de Stock en una Tienda
+Se utilizó una promesa para verificar la disponibilidad de un producto en el inventario. Si el producto existe y su cantidad es mayor a 0, se aprueba la compra; de lo contrario, se indica que el stock es insuficiente.
+
 Ejercicio 4: Procesamiento de pagos.
 
 Primeramente se crea una promesa para procesar un pago, esta debe comprobar que el pago realizado tenga un monto mayor a 0. Si el monto del pago es mayor a 0 la compra se permite dando un mensaje de pago exitoso, si no se genera un error, esto a traves de un if condicional.
@@ -17,6 +20,9 @@ Primeramente se crea una promesa para procesar un pago, esta debe comprobar que 
 Ejercicio 5: Autenticación de Usuario.
 
 Para auntenticar el usuario, primero utilizamos una promesa dentro de ella se utilizó una estructura condicional que verificaba las credenciales, al ser correctas regresa un objecto que contiene: usuario, rol y un mensaje. Si las crendenciales eran incorrectas regresa un objeto el cuál contiene un mensaje y código de error.
+
+Ejercicio 6: Verificación de Saldo Bancario
+Se utilizó una promesa para comprobar si una cuenta tiene saldo suficiente para una transacción. Si el saldo es suficiente, la transacción se aprueba y se muestra el saldo restante. Si no, se rechaza con un mensaje de fondos insuficientes y el saldo disponible.
 
 Ejercicio 7: Consulta del clima.
 
