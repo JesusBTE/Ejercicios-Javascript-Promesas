@@ -10,7 +10,7 @@ function userAuthenticate(user, password) {
         object = {
           user,
           role: "Administrator",
-          message: "Succesful login",
+          message: "Login succesful",
         };
 
         resolve(object);
